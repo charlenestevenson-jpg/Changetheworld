@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit Talent - LDSHE Talent Show</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Submit Your Talent</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="submit.html">Submit Talent</a>
+  </nav>
+</header>
+<main>
+  <form id="talentForm">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="talent">Talent Description:</label><br>
+    <textarea id="talent" name="talent" required></textarea><br><br>
+
+    <label for="link">Video or Photo Link:</label><br>
+    <input type="url" id="link" name="link" placeholder="https://example.com" required><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</main>
+<script>
+document.getElementById('talentForm').addEventListener('submit', (e) => {
+  e.preventDefault();
+  alert('Thank you! Your talent has been submitted.');
+});
+</script>
+</body>
+</html>
