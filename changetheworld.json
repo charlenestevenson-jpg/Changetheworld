@@ -1,10 +1,10 @@
 {
-"https://sites.google.com/view/changetheworld2026/home":"Change the World",
-"short_name":"ChangetheWorld",
-"start_url":"https://sites.google.com/view/changetheworld2026/home",
-"display":"standalone",
-"background_color":"#ffffff",
-"theme_color":"#D0021B",
+  "name": "Change the World",
+  "short_name": "changetheworld",
+  "start_url": "https://sites.google.com/view/changetheworld2026/home",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "f6c2c2",,
 "icons":
    [
    
