@@ -1,10 +1,10 @@
 {
 "https://sites.google.com/view/changetheworld2026/home":"Change the World",
-"short_name":"TalentShow",
+"short_name":"ChangetheWorld",
 "start_url":"/index.html",
 "display":"standalone",
 "background_color":"#ffffff",
-"theme_color":"#0b3d91",
+"theme_color":"#D0021B",
 "icons":
    [
    
